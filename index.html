@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Professional Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+    <h1>IMAGE CAROUSEL</h1>
+
+    <div class="image-box">
+
+        <img id="slider" src="https://picsum.photos/id/1015/800/500" alt="Display">
+
+    </div>
+
+
+
+    <div class="btn-group">
+
+        <button onclick="prevImage()">Previous</button>
+
+        <button onclick="nextImage()">Next</button>
+
+    </div>
+
+
+
+    <h2>Weather Service</h2>
+
+    <div class="custom-select" id="cityCustomSelect">
+
+        <button class="select-trigger" id="citySelectTrigger">
+
+            <span>Select Jharkhand District...</span>
+
+            <span class="arrow">&#9662;</span>
+
+        </button>
+
+        <div class="custom-options" id="cityOptionsList">
+
+            <select id="city">
+
+                <option value="Bokaro">Bokaro</option>
+
+                <option value="Chatra">Chatra</option>
+
+                <option value="Deoghar">Deoghar</option>
+
+                <option value="Dhanbad">Dhanbad</option>
+
+                <option value="Dumka">Dumka</option>
+
+                <option value="East Singhbhum">East Singhbhum</option>
+
+                <option value="Garhwa">Garhwa</option>
+
+                <option value="Giridih">Giridih</option>
+
+                <option value="Godda">Godda</option>
+
+                <option value="Gumla">Gumla</option>
+
+                <option value="Hazaribagh">Hazaribagh</option>
+
+                <option value="Jamtara">Jamtara</option>
+
+                <option value="Khunti">Khunti</option>
+
+                <option value="Koderma">Koderma</option>
+
+                <option value="Latehar">Latehar</option>
+
+                <option value="Lohardaga">Lohardaga</option>
+
+                <option value="Pakur">Pakur</option>
+
+                <option value="Palamu">Palamu</option>
+
+                <option value="Ramgarh">Ramgarh</option>
+
+                <option value="Ranchi">Ranchi</option>
+
+                <option value="Sahebganj">Sahebganj</option>
+
+                <option value="Seraikela Kharsawan">Seraikela Kharsawan</option>
+
+                <option value="Simdega">Simdega</option>
+
+                <option value="West Singhbhum">West Singhbhum</option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+
+
+    <button class="full-width" onclick="getWeather()">Fetch Weather Data</button>
+
+
+
+    <div id="weather">Weather details will appear here...</div>
+
+
+
+    <footer>Designed by Aditya Kumar Yadav | 2026</footer>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+  </html>
